@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browername" value="Chrome"/>
+  <test name="IE Test(failed)" parallel="tests">
+    <parameter name="browername" value="IE"/>
+    <classes>
+      <class name="Tests.ParallelBrwserTest">
+        <methods>
+          <include name="fblogintest" invocation-numbers="0"/>
+          <include name="aftermethtest"/>
+          <include name="aftermethtest"/>
+          <include name="aftermethtest"/>
+        </methods>
+      </class> <!-- Tests.ParallelBrwserTest -->
+    </classes>
+  </test> <!-- IE Test(failed) -->
+  <test name="Chrome Test(failed)" parallel="tests">
+    <parameter name="browername" value="Chrome"/>
+    <classes>
+      <class name="Tests.ParallelBrwserTest">
+        <methods>
+          <include name="fblogintest" invocation-numbers="0"/>
+          <include name="aftermethtest"/>
+          <include name="aftermethtest"/>
+          <include name="aftermethtest"/>
+        </methods>
+      </class> <!-- Tests.ParallelBrwserTest -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+  <test name="Firefox Test(failed)" parallel="tests">
+    <parameter name="browername" value="Firefox"/>
+    <classes>
+      <class name="Tests.ParallelBrwserTest">
+        <methods>
+          <include name="fblogintest" invocation-numbers="0"/>
+          <include name="aftermethtest"/>
+          <include name="aftermethtest"/>
+          <include name="aftermethtest"/>
+        </methods>
+      </class> <!-- Tests.ParallelBrwserTest -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

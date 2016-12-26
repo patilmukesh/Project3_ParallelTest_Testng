@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="21428" started-at="2016-12-26T17:50:22Z" finished-at="2016-12-26T17:50:44Z">
+    <groups>
+    </groups>
+    <test name="IE Test" duration-ms="8711" started-at="2016-12-26T17:50:22Z" finished-at="2016-12-26T17:50:31Z">
+      <class name="Tests.ParallelBrwserTest">
+        <test-method status="PASS" signature="fblogintest(java.lang.String)[pri:0, instance:Tests.ParallelBrwserTest@28d25987]" name="fblogintest" duration-ms="7507" started-at="2016-12-26T23:20:22Z" finished-at="2016-12-26T23:20:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fblogintest -->
+        <test-method status="PASS" signature="aftermethtest()[pri:0, instance:Tests.ParallelBrwserTest@28d25987]" name="aftermethtest" is-config="true" duration-ms="1175" started-at="2016-12-26T23:20:30Z" finished-at="2016-12-26T23:20:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethtest -->
+      </class> <!-- Tests.ParallelBrwserTest -->
+    </test> <!-- IE Test -->
+    <test name="Chrome Test" duration-ms="13959" started-at="2016-12-26T17:50:22Z" finished-at="2016-12-26T17:50:36Z">
+      <class name="Tests.ParallelBrwserTest">
+        <test-method status="PASS" signature="fblogintest(java.lang.String)[pri:0, instance:Tests.ParallelBrwserTest@39c0f4a]" name="fblogintest" duration-ms="12808" started-at="2016-12-26T23:20:22Z" finished-at="2016-12-26T23:20:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fblogintest -->
+        <test-method status="PASS" signature="aftermethtest()[pri:0, instance:Tests.ParallelBrwserTest@39c0f4a]" name="aftermethtest" is-config="true" duration-ms="1127" started-at="2016-12-26T23:20:35Z" finished-at="2016-12-26T23:20:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethtest -->
+      </class> <!-- Tests.ParallelBrwserTest -->
+    </test> <!-- Chrome Test -->
+    <test name="Firefox Test" duration-ms="21428" started-at="2016-12-26T17:50:22Z" finished-at="2016-12-26T17:50:44Z">
+      <class name="Tests.ParallelBrwserTest">
+        <test-method status="PASS" signature="fblogintest(java.lang.String)[pri:0, instance:Tests.ParallelBrwserTest@6a41eaa2]" name="fblogintest" duration-ms="20835" started-at="2016-12-26T23:20:22Z" finished-at="2016-12-26T23:20:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fblogintest -->
+        <test-method status="PASS" signature="aftermethtest()[pri:0, instance:Tests.ParallelBrwserTest@6a41eaa2]" name="aftermethtest" is-config="true" duration-ms="569" started-at="2016-12-26T23:20:43Z" finished-at="2016-12-26T23:20:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethtest -->
+      </class> <!-- Tests.ParallelBrwserTest -->
+    </test> <!-- Firefox Test -->
+  </suite> <!-- Suite -->
+</testng-results>
